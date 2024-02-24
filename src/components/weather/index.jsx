@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Search from '../search';
 
-const apiKey = "ffbdfa753fedcb1f6a74b4b2724be432"
+// const apiKey = "ffbdfa753fedcb1f6a74b4b2724be432"
 
 export default function Weather() {
     const [search, setSearch] = useState('');
